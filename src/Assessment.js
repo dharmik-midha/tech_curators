@@ -16,13 +16,13 @@ const Assessment = () => {
       {/* outer container */}
       <div className=" d-flex" style={{ height:"94vh" }}>
             {/* inner container 1 */}
-            <div className="container w-50 border border-primary d-flex p-0">
+            <div className="container w-50  d-flex p-0">
             {/* sub-inner container 1 */}
-            <div className="container border w-50 border-secondary p-0 d-flex flex-column justify-content-between ">
+            <div className="container w-50 p-0 d-flex flex-column justify-content-between ">
                 <div>
                 <img className="w-100" src={img1} alt="niksar" />
                 </div>
-                <div >
+                <div className="w-100">
                 <Camera/>
                 </div>
                 <div className="h-50"></div>
@@ -34,14 +34,14 @@ const Assessment = () => {
             </div>
 
             {/* sub-inner container-2 */}
-            <div className="container border  border-success p-0 w-100">
+            <div className="container p-0 w-100">
               <img className="h-100 w-100" src="https://media.giphy.com/media/NBKgvwgqmXUmBEKUJE/giphy.gif" alt=""/>  
               <a href className="btn p-2  btn-primary "style={{zIndex:"1",position:"absolute",bottom:"1vh" ,left:"30vw",borderRadius:"2em",width:"6vw",lineHeight:"15px"}}>Pardon<span><br/>Me</span></a>
             </div>
             </div>
 
             {/* inner container 2 */}
-            <div className="container w-50 border border-primary p-0">
+            <div className="container w-50 p-0">
             <ChattingBlock/>
             </div>
       </div>

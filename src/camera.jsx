@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Camera = () => {
   const HEIGHT = 260;
-  const WIDTH = 350;
+  const WIDTH = 330;
 
   navigator.mediaDevices.getUserMedia({audio: false, video: true})
   .then(mediaStream => {
