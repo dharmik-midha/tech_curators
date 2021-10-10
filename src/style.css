@@ -1,0 +1,24 @@
+ .chatreciever blockquote ,.chatsender blockquote{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 1vh;
+  max-width: 22vw;
+}
+
+.chatreciever blockquote{
+    background-color: #cfd1da6c;
+    
+}
+.chatsender blockquote{    
+    background-color: #0D6EFD;
+    color:white;
+}
+
+.buttons .btn{
+    border-radius: 2vh;
+    margin: 4px;
+}
+
+.buttons{
+    width: 42vw;
+}
